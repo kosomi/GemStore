@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+	<title>Gem Store - Angular JS </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+	<script type="text/javascript" src="assets/libs/angular.js"></script>
+
+	<script type="text/javascript" src="app/app.module.js"></script>
+	
+	<!-- Controllers -->
+	<script type="text/javascript" src="app/general/storeController.js"></script>
+	<!-- script type="text/javascript" src="app/tab/tabController.js"></script-->
+	<!--script type="text/javascript" src="app/gallery/galleryController.js"></script-->
+	<script type="text/javascript" src="app/review/reviewController.js"></script>
+
+	<!-- Directives -->
+	<script type="text/javascript" src="app/tab/description.directive.js"></script>
+	<script type="text/javascript" src="app/tab/specs.directive.js"></script>
+	<script type="text/javascript" src="app/tab/tabs.directive.js"></script>
+	<script type="text/javascript" src="app/gallery/gallery.directive.js"></script>
+
+</head>
+<body class="lsit-group" ng-controller="StoreController as store">
+	<header>
+      <h1 class="text-center">Flatlander Crafted Gems</h1>
+      <h2 class="text-center">  an Angular store </h2>
+    </header>
+
+	<div class="list-group-item" ng-repeat="product in store.products">
+		<h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em> </h3>
+
+		<product-gallery></product-gallery>
+
+        <product-tabs></product-tabs>
+		<!--button ng-show="product.canPurchase">Add to cart</button-->
+	</div>
+</body>
+</html>
