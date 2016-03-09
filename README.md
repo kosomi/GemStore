@@ -8,7 +8,7 @@
 6. git status 로 올리파일 목록을 확인한다.
 7. git commit -m "first" 메시지를 커밋한다.
 8. git remote add origin https://github.com/kosomi/test.git
-9. 9. git push -u origin master
+9. git push -u origin master
 
 하면 업로드 끝!
 
