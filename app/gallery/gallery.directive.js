@@ -12,8 +12,8 @@
 			controller: function(){
 				this.current = 0;
 	
-				this.setCurrent = function(current){
-			      this.current = newGallery || 0;
+				this.setCurrent = function(index){
+			      this.current = index;
 			    };
 			},
 			controllerAs: 'gallery'
