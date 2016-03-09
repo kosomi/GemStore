@@ -1,4 +1,4 @@
-git 사용 설명서
+# git 사용 설명서 #
 
 1. 첫번째 www.github.com 에 가서 repository를 만든다.
 2. 올릴 폴더에 들어간다.
