@@ -14,3 +14,13 @@
 
 주의사항: 
 1. 뭔가 잘 안되면 .gitint 폴더를 모두 지워서 다시 처음부터 시작한다.
+
+
+# git 업데이트 #
+
+1. git push -u original master
+2. git push -u original
+3. git pull (vm editor 에다 이상한거 씀)
+4. git add .
+5. git status
+6. git push -u origin master
