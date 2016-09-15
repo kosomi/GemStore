@@ -1,3 +1,5 @@
+깃 사용 설명서: http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
 # git 사용 설명서 #
 
 1. 첫번째 www.github.com 에 가서 repository를 만든다.
