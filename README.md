@@ -16,7 +16,7 @@
 1. 뭔가 잘 안되면 .gitint 폴더를 모두 지워서 다시 처음부터 시작한다.
 
 
-# git 업데이트 #
+# git 업로드 #
 
 1. git push -u original master
 2. git push -u original
@@ -24,3 +24,11 @@
 4. git add .
 5. git status
 6. git push -u origin master
+
+
+# git 업데이트 #
+
+1. git branch (branch를 만든다)
+2. git checkout -b (Branch Name)
+3. git push -u origin (Branch Name) 새로 만든 브런치 이름으로 업데이트 시킴.
+ 
