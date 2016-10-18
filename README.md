@@ -30,7 +30,6 @@
 
 # git 업데이트 #
 
-1. git branch (branch를 만든다)
-2. git checkout -b (Branch Name)
-3. git push -u origin (Branch Name) 새로 만든 브런치 이름으로 업데이트 시킴.
- 
+1. git add *
+2. git commit -m 'second'
+3. git push origin master
